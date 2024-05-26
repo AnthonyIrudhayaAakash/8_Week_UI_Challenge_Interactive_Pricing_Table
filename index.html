@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Pricing Table</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="pricing-container">
+        <h1>Our Pricing Plans</h1>
+        <div class="toggle-switch">
+            <span>Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="togglePricing">
+                <span class="slider round"></span>
+            </label>
+            <span>Yearly</span>
+        </div>
+        <div class="pricing-table">
+            <div class="pricing-card">
+                <h2>Basic</h2>
+                <p class="price monthly">$10<span>/month</span></p>
+                <p class="price yearly">$100<span>/year</span></p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <h2>Standard</h2>
+                <p class="price monthly">$20<span>/month</span></p>
+                <p class="price yearly">$200<span>/year</span></p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <h2>Premium</h2>
+                <p class="price monthly">$30<span>/month</span></p>
+                <p class="price yearly">$300<span>/year</span></p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                    <li>Feature 5</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
